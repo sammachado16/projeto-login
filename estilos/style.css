@@ -47,11 +47,11 @@ section > article > p {
 
 input[type='text'], input[type='email'], input[type='password'] {
     background-color: aquamarine;
-    margin: 2px;
+    margin: 2px 2px 2px -4px;
     border: 2px solid purple;
     height: 25px;
     border-radius: 5px;
-    width: 80%;
+    width: 83%;
 }
 
 
@@ -68,12 +68,19 @@ article > form {
 }
 
 #icon-email {
+    display: inline-block;
     color: white;
     background-color: purple;
+    border: 2px solid purple;
     height: 25px;
-    margin: 0px 0px 0px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0px 0px 0px 6px;
 }
-
+#iemail {
+    position: absolute;
+    top: 38.2%;
+}
 input#entrar {
     background-color: rgb(82, 175, 128);
     color: white;
