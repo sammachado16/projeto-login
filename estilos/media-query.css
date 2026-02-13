@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width:992px) {
-    body {
+    body { /*CONFIGURAÇÃO PARA TABLET*/
         background-image: linear-gradient(to top, rgb(74, 145, 110), mediumorchid);
     }
 
     section#login {
         width: 80vw;
-        height: 70vh;
+        height: 50vh;
     }
 
     section#login > div#imagem {
@@ -36,7 +36,7 @@
 
     section#login {
         width: 80vw;
-        height: 70vh;
+        height: 55vh;
     }
 
     section#login > div#imagem {
@@ -56,4 +56,9 @@
     div#formulario > p {
     font-size: 1.2em;
     }
+
+    div.campo > input {
+        transform: translateY(-37.5%);
+    }
+
 }
