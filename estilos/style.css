@@ -18,6 +18,7 @@ main {
     width: 100vw;
 }
 
+/* Caixa de login*/
 section#login {
     position: absolute;
     top: 50%;
@@ -29,8 +30,8 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
-    transform: translate(-50%, -50%);
-    transition: width .3s, height .3s;
+    transform: translate(-50%, -50%); /*Deixa a caixa no meio da tela*/
+    transition: width .3s, height .3s; /*Prepara para as transições de tamanhos de tela*/
     transition-timing-function: ease;
 }
 
@@ -60,6 +61,7 @@ div.campo > label {
     display: none;
 }
 
+/* Símbolos e-mail e senha*/
 div.campo > span {
     color: white;
     font-size: 2em;
@@ -75,10 +77,10 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-14px);
+    transform: translateY(-13px);
 
 }
-
+/* Muda a cor do campo enquanto está selecionado*/
 div.campo > input:focus-within {
     background-color: white;
     border: none;
@@ -130,6 +132,7 @@ form > a.botao:hover {
     background-color: rgb(143, 233, 188);
 }
 
+/*Símbolo de e-mail em esqueci a senha*/
 form > a.botao > span {
     font-size: 0.8em;
 }
